@@ -1,0 +1,157 @@
+/*-----------Shop---------------------------------------------*/
+body{
+    height: 900px;
+    width: auto;
+    padding: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images/garden_of_avalon.gif);
+}
+
+.navbar{
+    background:white;
+    border-style: solid;
+
+}
+
+.myRow{
+    height: 800px;
+    width: auto;
+}
+
+.texts{
+    font-weight: bold;
+}
+
+.textT{
+    color:#868fb9;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: auto; 
+  }
+  
+.prev-btn,.next-btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.prev-btn:hover,.next-btn:hover {
+    background-color: #fda0ce;
+}
+
+.floating-btn {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 999; 
+}
+  
+.floating-btn img {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    border: none; 
+  }
+
+.cardcolor1{
+    background-image: url(images/Hyacinths.webp);
+}
+
+.cardcolor2{
+    background-image: url(images/peony-flowers.jpg);
+}
+
+.cardcolor3{
+    background-image: url(images/Freesia.jpg);
+}
+
+.cardcolor4{
+    background-image: url(images/Stargazer\ lily.jpg);
+}
+.cardcolor5{
+    background-image: url(images/il_fullxfull.1574920441_9bcy_92fedfb0-6899-4d20-914e-2f7a546d976a.webp);
+}
+.cardcolor6{
+    background-image: url(images/Plumeria.jpg);
+}
+.cardcolor7{
+    background-image: url(images/Salvia\ Splendens.jpg);
+}
+.cardcolor8{
+    background-image: url(images/water-lilies-lake-france-royalty-free-image-1699382596.jpg);
+}
+.cardcolor9{
+    background-image: url(images/venusflytrap_feat.webp);
+}
+.cardcolor10{
+    background-image: url(images/Sundew-Plant.webp);
+}
+.cardcolor11{
+    background-image: url(images/dfb98b_6d947a33143b477bb8bebc4fdc7a9a13~mv2.webp);
+}
+.cardcolor12{
+    background-image: url(images/pitcher-plant.jpg);
+}
+
+/*-----Profile------------------------------------------------------------------- */
+.profile-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+  }
+  .btn-group {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .edit-profile-btn {
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  .sign-out-btn {
+    transition: background-color 0.3s;
+  }
+  .edit-profile-btn:hover,
+  .edit-profile-btn:focus {
+    background-color: #007bff;
+  }
+  .sign-out-btn:hover,
+  .sign-out-btn:focus {
+    background-color: #dc3545;
+  }
+
+  /*-----Contact---------------------------------------------*/
+.bg-contact{
+    background-color: white;
+}
+.rounded-image {
+    padding-top: 20px;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+  }
+
